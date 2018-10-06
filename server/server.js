@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 // Require routes
-const contactRouter = require('./routes/orderRouter');
+const contactRouter = require('./routes/handleOrder');
 
 // Set port
 const PORT = process.env.PORT || 5000;
